@@ -1,0 +1,9 @@
+---
+kind: pipeline
+name: drone-testing
+
+steps:
+- name: test
+  image: alpine
+  commands:
+  - env
